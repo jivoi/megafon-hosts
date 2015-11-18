@@ -5,7 +5,7 @@ List of hosts to block if you using MEGAFON 3G internet
 mkdir github;cd github
 git clone https://github.com/StevenBlack/hosts.git
 cd hosts
-wget https://github.com/jivoi/megafon-hosts/master/3g_megafon_hosts_block -O ./myhosts
+wget https://raw.githubusercontent.com/jivoi/megafon-hosts/master/3g_megafon_hosts_block -O ./myhosts
 python updateHostsFile.py
 
 ## Block USSD Codes
